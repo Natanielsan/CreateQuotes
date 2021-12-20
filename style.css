@@ -1,0 +1,47 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    color: rgb(0, 210, 247);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: cornsilk;
+    flex:0 0 80%;
+
+}
+
+.quoteBtn{
+    border: none;
+    color:cornsilk;
+    background-color: rgb(253, 174, 145);
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.quoteBtn:hover{
+    background-color: coral;
+}
+
+blockquote{
+    background: white;
+    border-left: 10px solid coral;
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+
+
+.quoteAuthor{
+    color: rgb(253, 174, 145);
+}
